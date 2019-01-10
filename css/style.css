@@ -14,10 +14,9 @@ body, html{
   position: fixed;
   left: 9.6em;
   width: 100%;
-  background: white;/* color del nav*/
   color: #fff;
   z-index: 5;
-  opacity: 0.7;
+
 }
 @media only screen and (max-width: 768px){
   .demo{
@@ -141,8 +140,6 @@ body, html{
   align-items: center center;
   top: 90vh;
 }
-
-
 .navbar .menu.open{
     visibility: visible;
     opacity: 1;
@@ -153,15 +150,13 @@ body, html{
     z-index: 2;
 }
 
-
-
 .navbar .nav-layer{
     background: -webkit-linear-gradient(to left, #000000, #484849);
     background: linear-gradient(to left, #000000, #484849);
     opacity: 0.8;
 }
-/* efecto de aparicion repentina menu hamburguesa*/
 
+/* efecto de aparicion repentina menu hamburguesa*/
 #hideMe {
 
   -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
